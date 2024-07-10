@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-dispatch-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc src/socks.ts --outDir dist && node dist/socks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10"
+  }
+}
